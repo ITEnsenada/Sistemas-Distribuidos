@@ -1,0 +1,27 @@
+comprobacion de python
+
+* formas de impresion
+System.out.println ("elemento");									Resultado: System no esta definido por el lenguaje
+echo "hola";														Resultado: La sintaxis es invalida
+Printf "hola";														Resultado: Sintaxis es invalida
+
+
+* funciones
+def int saluda(ed):													Resultado: Error de sintaxis
+def saluda(ed){ 
+	print "Felicidades, tu edad es de " + str(ed)					Resultado: Error de Sintaxis
+}
+function saluda(ed){
+	print "Felicidades, tu edad es de " + str(ed)					Resultado: Error de sintaxis
+}
+
+
+* declaracion de Variables
+int edad =0 ; 														Resultado: Error de sintaxis
+
+
+* Tabulaciones
+hice un tab mas sobre las tabulaciones normales						Resultado: guion inesperado, fue error
+en la linea despues del if, lo coloque a la misma altura 			Resultado: espera un bloque sangrado
+quite todas las Tabulaciones 										Resultado: Espera un bloque sangrado
+
